@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: rgb(111, 247, 111);
+}
+
+#Titolo{
+    font-size: 500%;
+    margin: 10% 5%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-shadow: 5px 5px 0px purple;
+}
+
+#intro{
+    font-size: 200%;
+    width: 80%;
+    margin: 5% 10%;
+    padding: 1%;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    box-shadow: 5px 5px 20px rgb(224, 120, 22);
+    border-radius: 25px;
+}
+
+.box{
+    width: 80%;
+    padding: 2%;
+    margin: 2% 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.titoletto{
+    font-size: 175%;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.testo{
+    margin: 1% 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 120%;
+    line-height: 200%;
+}
+
+#titoloOpera{
+    background-color: purple;
+    font-size: 120%;
+    width: fit-content;
+    border-radius: 25px;
+    color: white;
+    padding: 1% 2%;
+    cursor: grab;
+}
+
+#opera{
+    display: none;
+    flex-direction: column;
+}
+
+#img{
+    margin: 5% 25%;
+    width: 50%;
+
+}
+
+#biblioBox{
+    display: flex;
+    flex-direction: row;
+}
+
+.link{
+    margin: 5%;
+    color: purple;
+    text-shadow: 1px 1px 0px rgb(224, 120, 22);
+    font-size: 120%;
+}
